@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const NavBar = () => {
     return (
         <header className="bg-white">
@@ -24,12 +26,12 @@ const NavBar = () => {
                 <nav aria-label="Global">
                 <ul className="flex items-center gap-6 text-sm">
                     <li>
-                    <a
+                    <Link
                         className="text-gray-500 transition hover:text-gray-500/75"
-                        href="/"
+                        to="/"
                     >
                         About
-                    </a>
+                    </Link>
                     </li>
 
                     <li>
